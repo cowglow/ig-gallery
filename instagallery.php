@@ -23,25 +23,26 @@
 
         <?php
         $i = 0;
-        $ig = array_reverse(['1N3nASHuQY',
-            '2LsfYXHuaj',
-            '2nhMRonuV5',
-            '31FtaDHucw',
-            '5sZD0iHuRd',
-            '8PlHlpHuWR',
-            '-26fWbHua4',
-            '_BN8-cnuZ6',
-            '_Y41MsHuTf',
-            'BBHG8YxnuaA',
-            'BDSJK5hHuQ-',
-            'BE8SKmnnuWv',
-            'BGPe6Pmnuem',
-            'BIdM0sTB5Hy',
-            'BJ4d4NwBD28',
-            'BK-D5XyBv4R',
-            'BO15RBXhSvZ',
-            'BUG_PjaFkX2'
-        ]);
+        $ig[] = '1N3nASHuQY';
+        $ig[] = '2LsfYXHuaj';
+        $ig[] = '2nhMRonuV5';
+        $ig[] = '31FtaDHucw';
+        $ig[] = '5sZD0iHuRd';
+        $ig[] = '8PlHlpHuWR';
+        $ig[] = '-26fWbHua4';
+        $ig[] = '_BN8-cnuZ6';
+        $ig[] = '_Y41MsHuTf';
+        $ig[] = 'BBHG8YxnuaA';
+        $ig[] = 'BDSJK5hHuQ-';
+        $ig[] = 'BE8SKmnnuWv';
+        $ig[] = 'BGPe6Pmnuem';
+        $ig[] = 'BIdM0sTB5Hy';
+        $ig[] = 'BJ4d4NwBD28';
+        $ig[] = 'BK-D5XyBv4R';
+        $ig[] = 'BO15RBXhSvZ';
+        $ig[] = 'BUG_PjaFkX2';
+        
+        $ig = array_reverse($ig);
         ?>
 
         <?php while ($i < count($ig)) { ?>
@@ -100,8 +101,8 @@
             <?php $i++; ?>
         <?php if ($i%3 === 0) { echo '</div>'; } ?>
         <?php } ?>
-
 	</div>
+
 
 	<script>
 	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
