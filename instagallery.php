@@ -17,7 +17,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
-				<h1>COWGLOW/INSTAGALLERY<small> Instagram Videos by Philip Saa (<a href="https://instagram.com/cowglow" target="_blank">@cowglow</a>)</small></h1>
+				<h1><a href="http://cowglow.com/" target="_blank">COWGLOW</a>/<a href="#">INSTAGALLERY</a><small> Instagram Videos by Philip Saa (<a href="https://instagram.com/cowglow" target="_blank">@cowglow</a>)</small></h1>
 			</div>
 		</div>
 
