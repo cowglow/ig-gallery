@@ -1,0 +1,5 @@
+language: php
+php:
+  - 7.2
+env:
+  - APP_ENV=development CC_TEST_REPORTER_ID=ab61a5c56b985202585f5eaaf424337c82776ba7bf6b66660ebbea55eeff13b5
