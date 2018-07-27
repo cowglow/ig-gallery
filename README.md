@@ -1,9 +1,9 @@
 # cowglow/ig-gallery
 
-[![Build Status](https://travis-ci.org/cowglow/ig-gallery.svg?branch=master)](https://travis-ci.org/cowglow/ig-gallery)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/cowglow/ig-gallery/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/cowglow/ig-gallery/?branch=master)
 [![Code Coverage](https://scrutinizer-ci.com/g/cowglow/ig-gallery/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/cowglow/ig-gallery/?branch=master)
-
+[![Build Status](https://scrutinizer-ci.com/g/cowglow/ig-gallery/badges/build.png?b=master)](https://scrutinizer-ci.com/g/cowglow/ig-gallery/build-status/master)
+[![Code Intelligence Status](https://scrutinizer-ci.com/g/cowglow/ig-gallery/badges/code-intelligence.svg?b=master)](https://scrutinizer-ci.com/code-intelligence)
 This is a simple PHP script that renders multiple Instagram Embeded Snippets.
 
 

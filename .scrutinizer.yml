@@ -1,0 +1,10 @@
+# .scrutinizer.yml
+
+build:
+  nodes:
+    analysis:
+      tests:
+        override:
+          - js-scrutinizer-run
+          - php-scrutinizer-run
+          - py-scrutinizer-run
