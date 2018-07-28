@@ -1,0 +1,33 @@
+{
+  "name": "cowglow/ig-gallery",
+  "description": "This is a simple PHP script that renders multiple Instagram Embedded Snippets.",
+  "homepage": "http://cowglow.com/ig-gallery",
+  "type": "project",
+  "require-dev": {
+    "phpunit/phpunit": "^7.2"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Philip Saa",
+      "email": "cowglow@gmail.com",
+      "homepage": "http://cowglow.com",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "email": "cowglow@gmail.com",
+    "source": "https://github.com/cowglow/ig-gallery",
+    "issues": "https://github.com/cowglow/ig-gallery/issues"
+  },
+  "require": {
+    "php": "^7.2",
+    "guzzlehttp/guzzle": "^6.3",
+    "php-coveralls/php-coveralls": "^2.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Cowglow\\": "src/"
+    }
+  }
+}

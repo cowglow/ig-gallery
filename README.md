@@ -4,8 +4,8 @@
 [![Code Coverage](https://scrutinizer-ci.com/g/cowglow/ig-gallery/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/cowglow/ig-gallery/?branch=master)
 [![Build Status](https://scrutinizer-ci.com/g/cowglow/ig-gallery/badges/build.png?b=master)](https://scrutinizer-ci.com/g/cowglow/ig-gallery/build-status/master)
 [![Code Intelligence Status](https://scrutinizer-ci.com/g/cowglow/ig-gallery/badges/code-intelligence.svg?b=master)](https://scrutinizer-ci.com/code-intelligence)
-This is a simple PHP script that renders multiple Instagram Embeded Snippets.
 
+This is a simple PHP script that renders multiple Instagram Embeded Snippets.
 
 ### TODO
 - Update Travis YML File
