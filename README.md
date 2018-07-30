@@ -1,7 +1,5 @@
 # cowglow/ig-gallery
-
-[![Clear architecture][clear-architecture-url]: https://github.com/jkphl/clear-architecture
-
+[Clear architecture][clear-architecture-image]][clear-architecture-url]
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/cowglow/ig-gallery/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/cowglow/ig-gallery/?branch=master)
 [![Code Coverage](https://scrutinizer-ci.com/g/cowglow/ig-gallery/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/cowglow/ig-gallery/?branch=master)
 [![Build Status](https://scrutinizer-ci.com/g/cowglow/ig-gallery/badges/build.png?b=master)](https://scrutinizer-ci.com/g/cowglow/ig-gallery/build-status/master)
@@ -16,3 +14,7 @@ This is a simple PHP script that renders multiple Instagram Embeded Snippets.
 - Disable multiple clip playback (single instance only)
 - Update README file with instruction
 - Some CSS Voodo Magic
+
+
+[codeclimate-image]: https://lima.codeclimate.com/github/tollwerk/u2d-ventari/badges/gpa.svg
+[codeclimate-url]: https://github.com/jkphl/clear-architecture
