@@ -2,7 +2,7 @@
 
 namespace Cowglow\InstagramGallery\Ports;
 
-use Cowglow\InstagramGallery\Application;
+use Cowglow\InstagramGallery\Application\DispatchController;
 
 /**
  * Class App
@@ -44,7 +44,8 @@ class App
      */
     protected static function initialize()
     {
-        new Application\BaseController();
+        $config = self::getConfig('instagram');
+        new DispatchController($config);
     }
 
     /**

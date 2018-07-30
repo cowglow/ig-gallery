@@ -1,5 +1,6 @@
 # cowglow/ig-gallery
 
+[![Clear architecture][clear-architecture-image]][clear-architecture-url]
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/cowglow/ig-gallery/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/cowglow/ig-gallery/?branch=master)
 [![Code Coverage](https://scrutinizer-ci.com/g/cowglow/ig-gallery/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/cowglow/ig-gallery/?branch=master)
 [![Build Status](https://scrutinizer-ci.com/g/cowglow/ig-gallery/badges/build.png?b=master)](https://scrutinizer-ci.com/g/cowglow/ig-gallery/build-status/master)
@@ -8,8 +9,9 @@
 This is a simple PHP script that renders multiple Instagram Embeded Snippets.
 
 ### TODO
-- Update Travis YML File
+- Update Scrutinizer YML File
+- Write Tests !!!
 - Update JavaScript per new Instagram API
 - Disable multiple clip playback (single instance only)
 - Update README file with instruction
-- Fix the alignment on 3 
+- Some CSS Voodo Magic
