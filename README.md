@@ -1,6 +1,7 @@
 # cowglow/ig-gallery
 
-[![Clear architecture][clear-architecture-image]][clear-architecture-url]
+[![Clear architecture][clear-architecture-image]][clear-architecture-url]: https://github.com/jkphl/clear-architecture
+
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/cowglow/ig-gallery/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/cowglow/ig-gallery/?branch=master)
 [![Code Coverage](https://scrutinizer-ci.com/g/cowglow/ig-gallery/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/cowglow/ig-gallery/?branch=master)
 [![Build Status](https://scrutinizer-ci.com/g/cowglow/ig-gallery/badges/build.png?b=master)](https://scrutinizer-ci.com/g/cowglow/ig-gallery/build-status/master)
