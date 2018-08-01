@@ -1,0 +1,22 @@
+h1 {
+    margin: 0;
+}
+
+.author-info {
+    align-self: flex-end;
+    margin-bottom: 3px
+}
+
+div {
+    /*border: thin solid red; !* for dev only *!*/
+}
+
+@media (max-width: 760px) {
+    .author-info {
+        padding-bottom: 1em;
+    }
+
+    .domain-link {
+        font-size: 1rem;
+    }
+}
