@@ -1,22 +1,30 @@
 <?php
-/**
- * @package Cowglow
- */
 
-namespace Cowglow\InstagramGallery\Application;
+namespace Cowglow\InstagramGallery\Infrastructure;
 
-use Cowglow\InstagramGallery\Ports\App;
 
 class DispatchController
 {
+    /**
+     * Instance of Class
+     * @var null
+     */
+    protected static $instance = null;
+
+    public function __invoke($JSON_Object)
+    {
+        print_r($JSON_Object);
+    }
+
     public function __construct($params)
     {
+
         $rootDirectory = dirname(dirname(dirname(__DIR__))).DIRECTORY_SEPARATOR;
-
         include_once $rootDirectory.'assets'.DIRECTORY_SEPARATOR.'partials'.DIRECTORY_SEPARATOR.'header.php';
+        include_once $rootDirectory.'assets'.DIRECTORY_SEPARATOR.'partials'.DIRECTORY_SEPARATOR.'footer.php';
 
-        $grams = array_reverse($params);
-
+        //        $grams = array_reverse($params);
+//
         echo 'one';
 
 //        $counter = 0;
@@ -84,6 +92,6 @@ class DispatchController
 //                echo '</div>';
 //            }
 //        }
-        include_once $rootDirectory.'assets'.DIRECTORY_SEPARATOR.'partials'.DIRECTORY_SEPARATOR.'footer.php';
+
     }
 }

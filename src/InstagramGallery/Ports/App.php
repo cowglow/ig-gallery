@@ -2,7 +2,7 @@
 
 namespace Cowglow\InstagramGallery\Ports;
 
-use Cowglow\InstagramGallery\Application\DispatchController;
+use Cowglow\InstagramGallery\Infrastructure\DispatchController;
 
 /**
  * Class App
@@ -34,18 +34,18 @@ class App
         $filePath     = self::$rootDirectory.'config'.DIRECTORY_SEPARATOR.'data.xml';
         $config       = file_get_contents($filePath);
         self::$config = simplexml_load_string($config);
-
-        // Initialize the Application
-        self::initialize();
     }
 
     /**
      * Initialize Doctrine
      */
-    protected static function initialize()
+    public function loadGrams()
     {
         $config = self::getConfig('instagram');
-        new DispatchController($config);
+        $dispatcher = new DispatchController();
+        $dispatchResponse = $dispatcher($config);
+
+        return $dispatchResponse;
     }
 
     /**
