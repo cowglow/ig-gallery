@@ -30,17 +30,17 @@ class AbstractPort
         $this->dataType = $dataBind;
     }
 
+    /**
+     * Load Grams
+     *
+     * @return array
+     * @throws \Exception
+     */
     protected function loadGrams(): array
     {
-//        $config = self::getConfig('instagram');
-//        $dispatcher = new DispatchController();
-//        $dispatchResponse = $dispatcher($config);
-//
-//        return $dispatchResponse;
-
-        return ['working'=>'on it!'];
-
-    }
+        $dispatcher = new DispatchController($this->dataType);
+        return $dispatcher->Initialize();
+}
 //
 //    /**
 //     * Get a configuration value

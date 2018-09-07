@@ -7,7 +7,15 @@ h1 {
 }
 
 footer {
-    padding-top: 3rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    position:fixed;
+    left:0;
+    bottom:0;
+    height:30px;
+    width:100%;
+    background:#000000;
+    color: #FFFFFF;
 }
 
 .author-info {

@@ -11,6 +11,10 @@ use Cowglow\InstagramGallery\Infrastructure\AbstractPort;
  */
 class App extends AbstractPort
 {
+    /**
+     * @return array
+     * @throws \Exception
+     */
     public function loadGrams(): array
     {
         return parent::loadGrams();

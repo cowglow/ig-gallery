@@ -2,8 +2,9 @@
 $year = new DateTime('now');
 ?>
 <footer>
-    Copyright &copy; 1999-<?php echo $year->format('Y'); ?>. All right reserved.
-    | <a href="https://twitter.com/cowglow">@cowglow</a>
+    All right reserved.
+    (<a style="color:#c9c8cd;" href="https://twitter.com/cowglow">@cowglow</a>)
+    Copyright &copy; 1999-<?php echo $year->format('Y'); ?>.
 </footer>
 <?php echo PHP_EOL; ?>
 <?php if ($GLOBALS['isDev']) { ?>

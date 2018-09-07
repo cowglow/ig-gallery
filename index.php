@@ -13,8 +13,14 @@ include $partials.DIRECTORY_SEPARATOR.'header.php';
 
 $App = new Cowglow\InstagramGallery\Ports\App($GLOBALS['config']['bind'], $GLOBALS['config']['type']);
 
+try {
+    $grams = $App->loadGrams();
+} catch (Exception $e) {
+    throw new RuntimeException($e->getMessage());
+}
+
 echo '<pre>';
-print_r($App->loadGrams());
+print_r($grams);
 echo '</pre>';
 
 include $partials.DIRECTORY_SEPARATOR.'footer.php';
