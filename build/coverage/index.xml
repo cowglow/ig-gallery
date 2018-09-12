@@ -1,0 +1,112 @@
+<?xml version="1.0"?>
+<phpunit xmlns="https://schema.phpunit.de/coverage/1.0">
+  <build time="Wed Sep 12 20:21:52 GMT+0000 2018" phpunit="7.3.5" coverage="6.0.7">
+    <runtime name="PHP" version="7.2.8" url="https://secure.php.net/"/>
+    <driver name="xdebug" version="2.6.0"/>
+  </build>
+  <project source="/Users/philipsaa/Sites/GitHub/ig-gallery/src/InstagramGallery">
+    <tests>
+      <test name="Cowglow\InstagramGallery\Tests\Infrastructure\AbstractPortTest::testConstructor" size="unknown" result="0" status="PASSED"/>
+      <test name="Cowglow\InstagramGallery\Tests\Ports\AppTest::testLoadGrams" size="unknown" result="0" status="PASSED"/>
+    </tests>
+    <directory name="/">
+      <totals>
+        <lines total="361" comments="250" code="111" executable="80" executed="0" percent="0.00"/>
+        <methods count="18" tested="0" percent="0.00"/>
+        <functions count="0" tested="0" percent="0"/>
+        <classes count="6" tested="0" percent="0.00"/>
+        <traits count="0" tested="0" percent="0"/>
+      </totals>
+      <directory name="Application">
+        <totals>
+          <lines total="41" comments="12" code="29" executable="14" executed="0" percent="0.00"/>
+          <methods count="1" tested="0" percent="0.00"/>
+          <functions count="0" tested="0" percent="0"/>
+          <classes count="1" tested="0" percent="0.00"/>
+          <traits count="0" tested="0" percent="0"/>
+        </totals>
+        <file name="GramFactory.php" href="Application/GramFactory.php.xml">
+          <totals>
+            <lines total="41" comments="12" code="29" executable="14" executed="0" percent="0.00"/>
+            <methods count="1" tested="0" percent="0.00"/>
+            <functions count="0" tested="0" percent="0"/>
+            <classes count="1" tested="0" percent="0.00"/>
+            <traits count="0" tested="0" percent="0"/>
+          </totals>
+        </file>
+      </directory>
+      <directory name="Domain">
+        <totals>
+          <lines total="140" comments="53" code="87" executable="37" executed="0" percent="0.00"/>
+          <methods count="12" tested="0" percent="0.00"/>
+          <functions count="0" tested="0" percent="0"/>
+          <classes count="2" tested="0" percent="0.00"/>
+          <traits count="0" tested="0" percent="0"/>
+        </totals>
+        <file name="AbstractEntity.php" href="Domain/AbstractEntity.php.xml">
+          <totals>
+            <lines total="24" comments="4" code="20" executable="7" executed="0" percent="0.00"/>
+            <methods count="2" tested="0" percent="0.00"/>
+            <functions count="0" tested="0" percent="0"/>
+            <classes count="1" tested="0" percent="0.00"/>
+            <traits count="0" tested="0" percent="0"/>
+          </totals>
+        </file>
+        <file name="Gram.php" href="Domain/Gram.php.xml">
+          <totals>
+            <lines total="116" comments="49" code="67" executable="30" executed="0" percent="0.00"/>
+            <methods count="10" tested="0" percent="0.00"/>
+            <functions count="0" tested="0" percent="0"/>
+            <classes count="1" tested="0" percent="0.00"/>
+            <traits count="0" tested="0" percent="0"/>
+          </totals>
+        </file>
+      </directory>
+      <directory name="Infrastructure">
+        <totals>
+          <lines total="158" comments="176" code="-18" executable="28" executed="0" percent="0.00"/>
+          <methods count="4" tested="0" percent="0.00"/>
+          <functions count="0" tested="0" percent="0"/>
+          <classes count="2" tested="0" percent="0.00"/>
+          <traits count="0" tested="0" percent="0"/>
+        </totals>
+        <file name="AbstractPort.php" href="Infrastructure/AbstractPort.php.xml">
+          <totals>
+            <lines total="60" comments="58" code="2" executable="4" executed="0" percent="0.00"/>
+            <methods count="2" tested="0" percent="0.00"/>
+            <functions count="0" tested="0" percent="0"/>
+            <classes count="1" tested="0" percent="0.00"/>
+            <traits count="0" tested="0" percent="0"/>
+          </totals>
+        </file>
+        <file name="DispatchController.php" href="Infrastructure/DispatchController.php.xml">
+          <totals>
+            <lines total="98" comments="118" code="-20" executable="24" executed="0" percent="0.00"/>
+            <methods count="2" tested="0" percent="0.00"/>
+            <functions count="0" tested="0" percent="0"/>
+            <classes count="1" tested="0" percent="0.00"/>
+            <traits count="0" tested="0" percent="0"/>
+          </totals>
+        </file>
+      </directory>
+      <directory name="Ports">
+        <totals>
+          <lines total="22" comments="9" code="13" executable="1" executed="0" percent="0.00"/>
+          <methods count="1" tested="0" percent="0.00"/>
+          <functions count="0" tested="0" percent="0"/>
+          <classes count="1" tested="0" percent="0.00"/>
+          <traits count="0" tested="0" percent="0"/>
+        </totals>
+        <file name="App.php" href="Ports/App.php.xml">
+          <totals>
+            <lines total="22" comments="9" code="13" executable="1" executed="0" percent="0.00"/>
+            <methods count="1" tested="0" percent="0.00"/>
+            <functions count="0" tested="0" percent="0"/>
+            <classes count="1" tested="0" percent="0.00"/>
+            <traits count="0" tested="0" percent="0"/>
+          </totals>
+        </file>
+      </directory>
+    </directory>
+  </project>
+</phpunit>
