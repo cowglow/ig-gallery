@@ -16,4 +16,4 @@ This was a simple PHP script that rendered multiple Instagram Embeded Snippets. 
 
 
 [clear-architecture-image]: https://img.shields.io/badge/Clear%20Architecture-%E2%9C%94-brightgreen.svg
-[clear-architecture-url]: https://github.com/jkphl/clear-architecture
+[clear-architecture-url]: https://github.com/cowglow/clear-architecture
