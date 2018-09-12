@@ -5,13 +5,8 @@ build:
     analysis:
       tests:
         override:
-          - js-scrutinizer-run
           - php-scrutinizer-run
-          - py-scrutinizer-run
-    my-tests-with-coverage:
-      tests:
-        override:
-        - command: phpunit --coverage-clover=my-coverage-file
-          coverage:
-            file: ./build/coverage/index.xml
-            format: php-clover
+          - command: phpunit --coverage-clover=my-coverage-file
+              coverage:
+                file: ./build/coverage/index.xml
+                format: php-clover
