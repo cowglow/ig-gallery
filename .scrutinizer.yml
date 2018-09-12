@@ -8,3 +8,13 @@ build:
           - js-scrutinizer-run
           - php-scrutinizer-run
           - py-scrutinizer-run
+    coverage:
+      tests:
+        override:
+        - command: ./my-test-run
+          coverage:
+            file: path/to/coverage-data
+
+            # These formats are supported:
+            # clover, cobertura, jacoco, python-cc, ruby-cc, go-cc
+            format: name-of-format
