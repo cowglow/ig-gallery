@@ -8,13 +8,10 @@ build:
           - js-scrutinizer-run
           - php-scrutinizer-run
           - py-scrutinizer-run
-    coverage:
+    my-tests-with-coverage:
       tests:
         override:
-        - command: ./my-test-run
+        - command: phpunit --coverage-clover=my-coverage-file
           coverage:
-            file: path/to/coverage-data
-
-            # These formats are supported:
-            # clover, cobertura, jacoco, python-cc, ruby-cc, go-cc
-            format: name-of-format
+            file: ./build/coverage/index.xml
+            format: php-clover
