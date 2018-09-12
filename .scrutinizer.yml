@@ -1,8 +1,33 @@
 # .scrutinizer.yml
-
 build:
+  environment:
+    php: 7.2.8
   nodes:
     analysis:
+      project_setup:
+        override:
+        - 'true'
       tests:
         override:
         - php-scrutinizer-run
+        - command: phpcs-run
+          use_website_config: true
+        - command: 'vendor/bin/phpunit --coverage-clover=coverage.xml'
+          coverage:
+            file: 'coverage.xml'
+            format: 'clover'
+        - 'vendor/bin/grumphp run --no-interaction'
+      environment:
+        node:
+          version: 6.0.0
+    tests: true
+filter:
+  excluded_paths:
+  - 'src/Instagram/*'
+checks:
+  php: true
+coding_style:
+  php:
+    spaces:
+      around_operators:
+        concatenation: true
