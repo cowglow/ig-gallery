@@ -7,15 +7,12 @@
         <meta name="author" content="@cowglow">
         <?php if ($GLOBALS['isDev']) { ?>
 <!--[if lt IE9]><script src="node_modules/html5shiv/dist/html5shiv.min.js"></script><![endif]-->
-            <link href="assets/fonts/fonts.css" rel="stylesheet" type="text/css">
+            <link href="assets/css/styles.css" rel="stylesheet" type="text/css">
         <?php } else { ?>
 <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
-            <link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet">
-            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
-                  integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
-                  crossorigin="anonymous">
         <?php } ?>
         <link href="assets/css/styles.css" rel="stylesheet" type="text/css">
+        <link href="assets/fonts/fonts.css" rel="stylesheet" type="text/css">
     </head>
     <body>
         <header>

@@ -38,9 +38,10 @@ class AbstractPort
      */
     protected function loadGrams(): array
     {
-        $dispatcher = new DispatchController($this->dataType);
-        return $dispatcher->Initialize();
-}
+        return ['working on it!' => 'loading grams..'];
+//        $dispatcher = new DispatchController($this->dataType);
+//        return $dispatcher->Initialize();
+    }
 //
 //    /**
 //     * Get a configuration value

@@ -18,6 +18,7 @@ class DispatchController
 
     public function Initialize(): array
     {
+        echo 'working';
         return ['working on it' => 'building Dispatcher'];
     }
 }
