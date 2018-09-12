@@ -16,4 +16,3 @@ build:
             coverage:
               file: './build/coverage/index.xml'
               format: 'clover'
-              - 'vendor/bin/grumphp run --no-interaction'
