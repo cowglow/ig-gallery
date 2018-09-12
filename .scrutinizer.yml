@@ -11,8 +11,8 @@ build:
       tests:
         override:
         - php-scrutinizer-run
-        - command: phpcs-run
-          - command: 'vendor/bin/phpunit --coverage-clover=coverage.xml'
-            coverage:
-              file: './build/coverage/index.xml'
-              format: 'clover'
+#        - command: phpcs-run
+#          - command: 'vendor/bin/phpunit --coverage-clover=coverage.xml'
+#            coverage:
+#              file: './build/coverage/index.xml'
+#              format: 'clover'
